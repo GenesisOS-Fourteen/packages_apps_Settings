@@ -203,6 +203,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.beyond.ordinary.BeyondDashboard;
 
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
+
 public class SettingsGateway {
 
     /**
@@ -393,6 +395,7 @@ public class SettingsGateway {
             ResetNetwork.class.getName(),
             VibrationIntensitySettingsFragment.class.getName(),
             BeyondDashboard.class.getName(),
+            WifiTetherClientManager.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
